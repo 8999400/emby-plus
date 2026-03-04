@@ -1,7 +1,7 @@
 name: "Emby Server+"
 version: "1.0.0"
 slug: emby_custom
-description: "Сервер Emby на основе AlanZhai"
+description: "Сервер Emby на основе xinjiawei1/emby_unlockd"
 arch:
   - aarch64
   - amd64
@@ -16,4 +16,4 @@ map:
   - share:rw
 options: {}
 schema: {}
-image: xinjiawei1/emby_unlockd:latest
+image: xinjiawei1/emby_unlockd
