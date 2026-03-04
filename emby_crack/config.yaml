@@ -1,6 +1,6 @@
 name: "Emby Server+"
 version: "1.0.0"
-slug: "emby_custom"
+slug: emby_custom
 description: "Сервер Emby на основе AlanZhai"
 arch:
   - aarch64
@@ -11,6 +11,7 @@ ports:
   8096/tcp: 8096
   8920/tcp: 8920
 map:
+  - config:rw
   - media:rw
   - share:rw
 options: {}
