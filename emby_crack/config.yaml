@@ -16,4 +16,4 @@ map:
   - share:rw
 options: {}
 schema: {}
-image: "alanzhai/embycrack"
+image: xinjiawei1/emby_unlockd:latest
